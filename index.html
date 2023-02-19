@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form</title>
+    </head>
+    <body>
+
+      <center>
+        
+            <div>
+                <h1>Student Registration Form</h1>
+            </div>
+        
+            <form action="">
+            <!-- Creating Form -->
+                <!-- Details -->
+                <div>
+                    <label>Name: </label>
+                    <!-- Input Type Text -->
+                    <input type="text" placeholder="Enter your full name" required/>
+                </div>
+                <br>
+                <div>
+                    <label>Phone No.: </label>
+                    <!-- Input Type Number-->
+                    <input type="number" placeholder="Enter your phone number"/>
+                </div>
+                <br>
+                <div>
+                    <label>Date of Birth: </label>
+                    <!-- Input Type Date-->
+                    <input type="date" placeholder="Enter your DOB" required/>
+                </div>
+                <br>
+                <div>
+                    <label>Address: </label>
+                    <!-- multi-line text input control -->
+                    <textarea placeholder="Enter your complete Address"></textarea>
+                </div>
+                <br>
+                <div class="form-control">
+                    <label for="role" id="label-gender">Gender</label>
+            
+                        <!-- Input Type Radio Button -->
+                        <label for="recommed-1">
+                            <input type="radio"
+                                id="recommed-1"
+                                name="recommed">Male</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio"
+                                id="recommed-2"
+                                name="recommed">Female</input>
+                        </label>
+                </div>
+                <br>
+                <div>
+                    <label for="role" id="label-role">City: </label>
+                    
+                    <!-- Dropdown options -->
+                    <select name="role" id="role" required>
+                        <option value="">Select your city</option>
+                        <option value="Vishakapatnam">Vishakapatnam</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Gurgaon">Gurgaon</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-control">
+                    <label class="que">Hobbies: </label>
+                    <br>
+                    <br>
+                    <div>
+                        <!-- Input Type Checkbox -->
+                        <label for="inp-1">
+                            <input type="checkbox">Music</input></label>
+                            <br>
+                        <label for="inp-2">
+                            <input type="checkbox">Sports</input></label>
+                            <br>
+                        <label for="inp-3">
+                            <input type="checkbox">Reading</input></label>
+                            <br>
+                        <label for="inp-4">
+                            <input type="checkbox">Sketching</input></label>
+                            <br>
+                        <label for="inp-5">
+                            <input type="checkbox">Singing</input></label>
+                    </div>
+                </div>
+                <br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+            <br>
+            <br>
+
+            </center>
+
+        
+    
+      <center>
+      <h2>Student Records</h2>
+      <table style="width:30%", border="border: 2px solid black;">
+
+        <tr>
+
+          <th>S.NO.</th>
+          <th>Name</th>
+          <th>Phone No.</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th>Hobbies</th>
+
+        </tr>
+
+        <tr>
+
+          <td>1</td>
+          <td>Ram</td>
+          <td>9345566562</td>
+          <td>Male</td>
+          <td>Visakhapatnam</td>
+          <td>Music <br> Sports <br> Sketching</td>
+
+        </tr>
+
+        <tr>
+
+          <td>2</td>
+          <td>Krish</td>
+          <td>7923746523</td>
+          <td>Male</td>
+          <td>Gurgaon</td>
+          <td>Sports <br> Reading <br> Sketching</td>
+
+        </tr>
+
+        <tr>
+
+          <td>3</td>
+          <td>Rosy</td>
+          <td>9765621342</td>
+          <td>Female</td>
+          <td>Kolkata</td>
+          <td>Reading <br> Sketching <br> Singing </td>
+
+        </tr>
+
+
+      </table>
+
+      </center>
+
+
+  </body>
+
+  </html>
+    
